@@ -4,7 +4,9 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"regexp"
 	"strings"
+	"time"
 
 	"gopkg.in/yaml.v2"
 )
@@ -60,6 +62,7 @@ func main() {
 	}
 
 	results := make(chan string, len(urls))
+	pageMap := make(map[string]string)
 
 	jobPaths := []string{
 		"careers",
@@ -76,22 +79,42 @@ func main() {
 			for _, p := range jobPaths {
 				status := checkCareersPage(url+p)
 				if status == "200 OK" {
-					results <- fmt.Sprintf("%s %s", status, url+p)
+					results <- url+p
 					return
 				}
 			}
-			results <- fmt.Sprintf("No page %s", url)
+			results <- ""
 		}()
 
 	}
 	for range urls {
-		result := <-results
-		fmt.Println(result)
+		page := <-results
+		if page != "" {
+			re := regexp.MustCompile(`(?:https?://)?(?:www\.)?([^/]+)`)
+			match := re.FindStringSubmatch(page)
+			if len(match) > 1 {
+				pageMap[match[1]] = page
+			} else {
+				pageMap[page] = page
+			}
+		}
 	}
+
+	    // m is a map[string]interface.
+    // loop over keys and values in the map.
+	fmt.Println("Found Career pages")
+	fmt.Println("| project | career page |")
+	fmt.Println("| --- | --- |")
+    for k, v := range pageMap {
+        fmt.Println("| ", k, " | ", v, " |")
+    }
 }
 
 func checkCareersPage(url string) string {
-	resp, err := http.Get(url)
+	client := http.Client{
+		Timeout: 10 * time.Second,
+	}
+	resp, err := client.Get(url)
 	if err != nil {
 		fmt.Println(err)
 		return fmt.Sprintf("%s %s", url, err)

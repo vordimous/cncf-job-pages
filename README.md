@@ -1,705 +1,615 @@
 # cncf-job-pages
 
 Find the job/career pages for cncf projects. Current results that return `200 OK`:
-
-- http://openobserve.ai/careers
-- http://www.bizmicro.co.kr/careers
-- http://www.chinaunicom.com.cn/career
-- http://www.datenlord.io/careers
-- http://www.juniper.net/careers
-- http://www.opslevel.com/careers
-- http://www.percona.com/careers
-- http://www.pipekit.io/careers
-- http://www.squer.at/career
-- https://8gears.com/careers
-- https://about.gitlab.com/jobs
-- https://about.scarf.sh/careers
-- https://accordions.co.kr/kube_eng/careers
-- https://accuknox.com/careers
-- https://afi.ai/kubernetes-backup/careers
-- https://aiven.io/careers
-- https://alasca.cloud/jobs
-- https://algorithmia.com/product/careers
-- https://alphabsolutions.com/careers
-- https://altinity.com/careers
-- https://amadeus.com/en/careers
-- https://artifacthub.io/careers
-- https://atix.de/career
-- https://authkeys.io/careers
-- https://authzed.com/careers
-- https://autocode.com/careers
-- https://aviatrix.com/careers
-- https://aws.amazon.com/careers
-- https://aws.amazon.com/ebs/jobs
-- https://b-nova.com/en/home/jobs
-- https://b-nova.com/home/jobs
-- https://bluesentry.cloud/careers
-- https://bluesentry.cloud/solutions/managed-kubernetes-consulting-services/careers
-- https://bosh.io/docs/jobs
-- https://buildkite.com/careers
-- https://buoyant.io/careers
-- https://bytesource.net/en/kubernetes/careers
-- https://canonical.com/careers
-- https://capsule8.com/career
-- https://carbondata.apache.org/careers
-- https://carrier.huawei.com/en/products/service-and-software/software-business/careers
-- https://casper.network/career
-- https://cast.ai/jobs
-- https://chainloop.dev/careers
-- https://chaosmeta.gitbook.io/chaosmeta-en/careers
-- https://chinasystems.com/partners/kubernetes/careers
-- https://chronosphere.io/careers
-- https://circleci.com/careers
-- https://clickhouse.com/careers
-- https://cloud-ace.jp/kubernetes-consulting/#/careers
-- https://cloud.google.com/careers
-- https://cloud.google.com/products/operations/careers
-- https://cloud.samsungsds.com/serviceportal/index.html/careers
-- https://cloud.samsungsds.com/serviceportal/product/container/k8sEngine.html/careers
-- https://cloud.tencent.com/product/cls/careers
-- https://cloud.tencent.com/product/scf/careers
-- https://cloudbase.it/careers
-- https://cloudferro.com/career
-- https://cloudhealth.vmware.com/careers
-- https://cloudify.co/careers
-- https://cloudoor.com/careers
-- https://cn.aliyun.com/product/aliware/sae/careers
-- https://codefresh.io/careers
-- https://coder.com/careers
-- https://concourse-ci.org/jobs
-- https://console.cloud.intel.com/careers
-- https://console.qingcloud.com/paas/qke/clusters/careers
-- https://control-plane.io/#services/careers
-- https://control-plane.io/jobs
-- https://cordial.com/careers
-- https://coredge.io/careers
-- https://corporate.888.com/careers
-- https://cosmonic.com/careers
-- https://cubefs.io/careers
-- https://cuegee.com/jobs
-- https://d2iq.com/careers
-- https://daekyocns.co.kr/business/consulting_en.aspx/careers
-- https://dart.dev/jobs
-- https://deepflow.io/careers
-- https://deepflow.yunshan.net/community.html/careers
-- https://devtron.ai/careers
-- https://dfinity.org/careers
-- https://digital.decathlon.net/careers
-- https://docs.akri.sh/careers
-- https://docs.flagger.app/careers
-- https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-2408/careers
-- https://docs.prefect.io/careers
-- https://dot.net/careers
-- https://dragonflydb.io/careers
-- https://effectual.com/kubernetes/careers
-- https://elastisys.com/career
-- https://elastisys.com/consulting/career
-- https://elastisys.com/training/career
-- https://elastx.se/en/careers
-- https://elastx.se/en/kubernetes/careers
-- https://en.pingcap.com/careers
-- https://encore.dev/jobs
-- https://entegral.com/careers
-- https://enterprises.upmc.com/careers
-- https://equityzen.com/jobs
-- https://eviden.com/careers
-- https://evonem.com/careers
-- https://evonem.com/kubernetes/careers
-- https://f5.com/careers
-- https://firehydrant.com/careers
-- https://flows.network/careers
-- https://flox.dev/careers
-- https://fossa.com/careers
-- https://garden.io/careers
-- https://gcore.com/careers
-- https://geekssolutions.in/careers
-- https://getcruise.com/careers
-- https://gitness.com/careers
-- https://gitpod.io/careers
-- https://global.jd.com/careers
-- https://goauthentik.io/jobs
-- https://gofr.dev/careers
-- https://goraft.tech/careers
-- https://goteleport.com/careers
-- https://gradle.com/careers
-- https://gradle.org/jobs
-- https://grafana.com/careers
-- https://grapeup.com/careers
-- https://graphscope.io/careers
-- https://greptime.com/careers
-- https://greymatter.io/careers
-- https://group.mercedes-benz.com/careers
-- https://guance.com/careers
-- https://harness.io/careers
-- https://hasura.io/event-triggers/careers
-- https://hk.iherb.com/careers
-- https://home.robusta.dev/careers
-- https://infisical.com/careers
-- https://intl.cloud.tencent.com/products/tke/careers
-- https://ionir.com/careers
-- https://isovalent.com/careers
-- https://itgix.com/careers
-- https://itopia.com/itopia-spaces/careers
-- https://itq.eu/careers
-- https://itq.eu/technology/kubernetes/jobs
-- https://jet-start.sh/careers
-- https://jfrog.com/careers
-- https://k6.io/jobs
-- https://kestra.io/careers
-- https://king.com/jobs
-- https://kodekloud.com/careers
-- https://konghq.com/careers
-- https://kpt.dev/careers
-- https://kubecost.com/careers
-- https://kubeops.net/careers
-- https://kubeops.net/en/careers
-- https://kubeshop.io/careers
-- https://kubeslice.io/careers
-- https://kublr.com/careers
-- https://kurl.sh/careers
-- https://landscape.cncf.io/careers
-- https://last9.io/careers
-- https://launchdarkly.com/careers
-- https://likemindsconsulting.com/careers
-- https://likemindsconsulting.com/kubernetes-consulting-services/careers
-- https://linuxcontainers.org/lxd/careers
-- https://loft.sh/careers
-- https://logz.io/careers
-- https://lumigo.io/careers
-- https://mariadb.com/careers
-- https://mavenir.com/careers
-- https://memphis.dev/careers
-- https://mergify.com/careers
-- https://metakube.syseleven.de/careers
-- https://mia-platform.eu/careers
-- https://mia-platform.eu/platform/console/careers
-- https://middleware.io/careers
-- https://milvus.io/careers
-- https://min.io/careers
-- https://mogdb.io/en/uqbar/careers
-- https://mogenius.com/career
-- https://monzo.com/us/careers
-- https://msystechnologies.com/careers
-- https://nacos.io/en-us/careers
-- https://navimentum.com/careers
-- https://nebius.com/careers
-- https://neo4j.com/careers
-- https://networkbuilders.intel.com/intel-technologies/container-experience-kits/careers
-- https://neuvector.com/careers
-- https://newrelic.com/?utm_source=kubecon&utm_medium=event&utm_campaign=amer-fy25-q2-kubecon2024/careers
-- https://newrelic.com/careers
-- https://ngrok.com/careers
-- https://nielseniq.com/global/en/careers
-- https://novaglobal.com.sg/index.php/kubernetes/careers
-- https://octopus.com/careers
-- https://omnistrate.com/careers
-- https://openllmetry.com/careers
-- https://opennebula.io/careers
-- https://openpolardb.com/home/careers
-- https://openresty.com/en/career
-- https://opsani.com/careers
-- https://permify.co/careers
-- https://planetscale.com/careers
-- https://platform.sh/careers
-- https://platform9.com/careers
-- https://polkadot.network/careers
-- https://portworx.com/careers
-- https://posit.co/careers
-- https://profisea.com/kubernetes-services/careers
-- https://proximaops.io/careers
-- https://qingteng.cn/careers
-- https://quay.io/jobs
-- https://rafay.co/careers
-- https://rancher.com/careers
-- https://redis.io/careers
-- https://redpanda.com/careers
-- https://restate.dev/careers
-- https://rio.io/careers
-- https://ripple.com/careers
-- https://riscv.org/careers
-- https://rng.tech/en/kubernetes/careers
-- https://robin.io/careers
-- https://scalingo.com/jobs
-- https://seal.io/career
-- https://sedai.io/careers
-- https://sematext.com/jobs
-- https://sensu.io/careers
-- https://sifamo.com/kubernetes/careers
-- https://signoz.io/careers
-- https://simplyblock.io/careers
-- https://snyk.io/careers
-- https://spacelift.io/careers
-- https://spectrocloud.com/careers
-- https://split.io/careers
-- https://spot.io/career
-- https://stacklet.io/careers
-- https://stacklok.com/careers
-- https://stateful.com/careers
-- https://stormforge.io/careers
-- https://streamsets.com/careers
-- https://supabase.com/careers
-- https://superorbital.io/careers
-- https://sysdig.com/careers
-- https://tanzu.vmware.com/application-catalog/careers
-- https://tanzu.vmware.com/kubernetes-grid/careers
-- https://taubyte.com/careers
-- https://tengine.taobao.org/careers
-- https://teuto.net/teutostack-openstack-public-cloud/career
-- https://teutostack.de/produkte/managed-kubernetes/careers
-- https://tks.sktenterprise.com/en/careers
-- https://tks.sktenterprise.com/en/services/careers
-- https://tongtech.com/dft/kubernetes.html/careers
-- https://traefik.io/careers
-- https://treyee.io/careers
-- https://upbound.io/careers
-- https://us.alibabacloud.com/careers
-- https://vamp.io/careers
-- https://velocity.tech/careers
-- https://vercel.com/careers
-- https://veritasautomata.com/careers
-- https://vexxhost.com/careers
-- https://vshn.ch/en/jobs
-- https://wandb.ai/careers
-- https://wasmlabs.dev/projects/wasm-language-runtimes/careers
-- https://whatap.io/en/careers
-- https://whitestack.com/products/kubernetes-based-containers-orchestration/jobs
-- https://www.6wind.com/careers
-- https://www.adobe.com/careers
-- https://www.aerospike.com/careers
-- https://www.afi.ai/careers
-- https://www.airbnb.com/careers
-- https://www.airlock.com/jobs
-- https://www.alibabacloud.com/careers
-- https://www.alibabacloud.com/product/ahas/careers
-- https://www.alibabacloud.com/product/arms/careers
-- https://www.alibabacloud.com/product/function-compute/careers
-- https://www.alibabacloud.com/product/kubernetes/careers
-- https://www.alibabacloud.com/product/log-service/careers
-- https://www.alibabacloud.com/product/nas/careers
-- https://www.alibabacloud.com/product/serverless-workflow/careers
-- https://www.alibabacloud.com/zh/product/container-registry/careers
-- https://www.alluxio.io/careers
-- https://www.amazee.io/careers
-- https://www.ambient.run/careers
-- https://www.amd.com/careers
-- https://www.americanexpress.com/careers
-- https://www.andesdigital.com/en/services/managed-services/tanzu-management-and-maintenance/#/careers
-- https://www.anova.com/careers
-- https://www.antgroup.com/careers
-- https://www.anynines.com/careers
-- https://www.aoe.com/career
-- https://www.aokumo.io/careers
-- https://www.apica.io/careers
-- https://www.apiiro.com/careers
-- https://www.apollographql.com/careers
-- https://www.appdynamics.com/careers
-- https://www.apple.com/careers
-- https://www.appneta.com/careers
-- https://www.appsignal.com/jobs
-- https://www.appstellar.io/careers
-- https://www.aquasec.com/aqua-cloud-native-security-platform/careers
-- https://www.aquasec.com/careers
-- https://www.arangodb.com/careers
-- https://www.ardc.edu.au/careers
-- https://www.arm.com/zh-TW/careers
-- https://www.armosec.io/careers
-- https://www.arrikto.com/careers
-- https://www.asml.com/careers
-- https://www.aspecto.io/careers
-- https://www.aternity.com/application-performance-monitoring/careers
-- https://www.atolio.com/careers
-- https://www.audi.de/de/brand/de.html/careers
-- https://www.auditboard.com/careers
-- https://www.authing.cn/careers
-- https://www.automq.com/careers
-- https://www.aviatrix.com/careers
-- https://www.b1-systems.de/jobs
-- https://www.bancolombia.com/personas/careers
-- https://www.bd-apaas.com/#/bcproduct/careers
-- https://www.bd-apaas.com/#/careers
-- https://www.blackrock.com/careers
-- https://www.blakyaks.com/careers
-- https://www.bloombase.com/careers
-- https://www.bloomberg.com/tosv2.html/careers
-- https://www.bocloud.com.cn/train/?id=92/careers
-- https://www.boeing.com/careers
-- https://www.boozallen.com/careers
-- https://www.bytebase.com/jobs
-- https://www.bytesource.net/de/careers
-- https://www.cablelabs.com/careers
-- https://www.calyptia.com/careers
-- https://www.cambiahealth.com/careers
-- https://www.cargurus.com/careers
-- https://www.cariad.us/careers
-- https://www.cast.ai/jobs
-- https://www.catchpoint.com/careers
-- https://www.cathayholdings.com/careers
-- https://www.celonis.com/careers
-- https://www.centricaenergy.com/careers
-- https://www.chainguard.dev/careers
-- https://www.checkpoint.com/careers
-- https://www.chef.io/careers
-- https://www.chelsio.com/careers
-- https://www.chinamobileltd.com/en/global/home.php/careers
-- https://www.chinasystems.com/careers
-- https://www.cinqict.nl/careers
-- https://www.circonus.com/careers
-- https://www.cisco.com/careers
-- https://www.civo.com/careers
-- https://www.clastix.io/careers
-- https://www.clever-cloud.com/careers
-- https://www.clockwork.io/careers
-- https://www.cloud-ace.jp/careers
-- https://www.cloud-kinetics.com/careers
-- https://www.cloud66.com/jobs
-- https://www.cloudbees.com/careers
-- https://www.cloudbolt.io/careers
-- https://www.cloudgeometry.io/careers
-- https://www.cloudification.io/careers
-- https://www.cloudmt.co.kr/careers
-- https://www.cloudmt.co.kr/CNCF/careers
-- https://www.cloudops.com/careers
-- https://www.cloudpilot.ai/careers
-- https://www.cloudreach.com/en/solutions/cloud-applications/kubernetes/careers
-- https://www.cloudsmith.com/careers
-- https://www.cloudzero.com/careers
-- https://www.cockroachlabs.com/careers
-- https://www.concur.com/careers
-- https://www.conjur.org/careers
-- https://www.conoa.se/container-as-a-service/job
-- https://www.conoa.se/job
-- https://www.conoa.se/konsulttjanster/container/job
-- https://www.conoa.se/utbildning/kubernetes-utbildning/job
-- https://www.controlmonkey.io/careers
-- https://www.coredge.io/careers
-- https://www.cortex.io/careers
-- https://www.crunchydata.com/careers
-- https://www.cto.ai/careers
-- https://www.cuegee.com/jobs
-- https://www.cyberark.com/careers
-- https://www.datadoghq.com/careers
-- https://www.datastax.com/careers
-- https://www.daytona.io/careers
-- https://www.dbos.dev/jobs
-- https://www.deeperthanblue.co.uk/careers
-- https://www.deepfactor.io/careers
-- https://www.defenseunicorns.com/careers
-- https://www.densify.com/careers
-- https://www.devsoperative.com/careers
-- https://www.devsoperative.com/index.html/careers
-- https://www.devtron.ai/careers
-- https://www.dfds.com/en/jobs
-- https://www.diagrid.io/careers
-- https://www.digitalocean.com/careers
-- https://www.docomoinnovations.com/careers
-- https://www.dragonflydb.io/careers
-- https://www.dynatrace.com/careers
-- https://www.easystack.cn/careers
-- https://www.easystack.cn/eks/careers
-- https://www.ebay.com/careers
-- https://www.eclipse.org/careers
-- https://www.ecloudtech.com/job
-- https://www.edgeless.systems/careers
-- https://www.effectual.com/careers
-- https://www.eitco.de/jobs
-- https://www.elastic.co/careers
-- https://www.emqx.com/en/careers
-- https://www.endress.com/career
-- https://www.enterprisedb.com/careers
-- https://www.env0.com/careers
-- https://www.epam.com/careers
-- https://www.everquote.com/careers
-- https://www.exein.io/careers
-- https://www.exoscale.com/jobs
-- https://www.ey.com/en_gl/careers
-- https://www.f5.com/careers
-- https://www.factory.ai/careers
-- https://www.fastly.com/careers
-- https://www.fidelity.com/jobs
-- https://www.fiserv.com/careers
-- https://www.flagsmith.com/jobs
-- https://www.fossid.com/careers
-- https://www.fr0ntierx.com/careers
-- https://www.fugue.co/careers
-- https://www.fullstacks.eu/kubernetes-trainings/careers
-- https://www.getport.io/careers
-- https://www.getunleash.io/careers
-- https://www.ggu.edu/career
-- https://www.gientech.com/careers
-- https://www.gitguardian.com/careers
-- https://www.goldmansachs.com/careers
-- https://www.granulate.io/careers
-- https://www.graylog.org/careers
-- https://www.gremlin.com/careers
-- https://www.gresearch.co.uk/careers
-- https://www.hashicorp.com/careers
-- https://www.heroku.com/careers
-- https://www.highlight.io/careers
-- https://www.hitrust.com/careers
-- https://www.honeybadger.io/careers
-- https://www.honeycomb.io/careers
-- https://www.hps-worldwide.com/careers
-- https://www.huaweicloud.com/intl/en-us/careers
-- https://www.huifu.com/careers
-- https://www.humanitec.com/careers
-- https://www.humio.com/careers
-- https://www.i3-systems.com/careers
-- https://www.ibm.com/cloud/careers
-- https://www.ibm.com/cloud/container-registry/careers
-- https://www.ibm.com/cloud/kubernetes-service/careers
-- https://www.ibm.com/cloud/openshift/careers
-- https://www.ibm.com/products/turbonomic/careers
-- https://www.ibm.com/storage/containers/careers
-- https://www.iguazio.com/careers
-- https://www.infinidat.com/en/careers
-- https://www.influxdata.com/careers
-- https://www.infoblox.com/careers
-- https://www.infosys.com/careers
-- https://www.infoway-inforoute.ca/en/careers
-- https://www.initializ.io/careers
-- https://www.instana.com/careers
-- https://www.instruqt.com/careers
-- https://www.intuit.com/careers
-- https://www.ionos.de/jobs
-- https://www.itongxue.net/itxcertification?type=cka/careers
-- https://www.jdcloud.com/cn/careers
-- https://www.jdcloud.com/cn/products/jcs-for-kubernetes/careers
-- https://www.jdcloud.com/en/products/jcs-for-kubernetes/careers
-- https://www.jetstack.io/careers
-- https://www.jiankongbao.com/careers
-- https://www.jit.io/career
-- https://www.jpmorganchase.com/careers
-- https://www.juniper.net/us/en.html/careers
-- https://www.juniper.net/us/en/products/security/srx-series/csrx-containerized-firewall.html/careers
-- https://www.jysk.com/careers
-- https://www.kentik.com/careers
-- https://www.keyfactor.com/careers
-- https://www.kiowy.com/careers
-- https://www.kodemsecurity.com/careers
-- https://www.komodor.com/careers
-- https://www.koyeb.com/careers
-- https://www.ksat.no/careers
-- https://www.ktnexr.com/career
-- https://www.kubecost.com/careers
-- https://www.kubeorbit.io/careers
-- https://www.kubiya.ai/careers
-- https://www.kusari.dev/careers
-- https://www.lablup.com/careers
-- https://www.lacework.com/careers
-- https://www.last9.io/careers
-- https://www.leaseweb.com/careers
-- https://www.lightrun.com/careers
-- https://www.linbit.com/careers
-- https://www.linbit.com/linstor/careers
-- https://www.linkedin.com/career
-- https://www.linkedin.com/company/datica-inc/about/careers
-- https://www.linkedin.com/company/drivescale-inc-/career
-- https://www.linkedin.com/company/glasnostic/career
-- https://www.liquibase.com/job
-- https://www.lockheedmartin.com/careers
-- https://www.logicmonitor.com/careers
-- https://www.lseg.com/en/careers
-- https://www.ltimindtree.com/careers
-- https://www.lumigo.io/careers
-- https://www.macstadium.com/careers
-- https://www.mantech.co.kr/careers
-- https://www.mastercard.us/en-us.html/careers
-- https://www.mastercontrol.com/careers
-- https://www.mathworks.com/careers
-- https://www.matrixx.com/careers
-- https://www.mavensolutions.tech/career
-- https://www.mckinsey.com/careers
-- https://www.megazone.com/career
-- https://www.meltwater.com/en/careers
-- https://www.merck.com/careers
-- https://www.merly.ai/careers
-- https://www.metrostar.com/jobs
-- https://www.mezmo.com/career
-- https://www.microsoft.com/en-us/sql-server/careers
-- https://www.mirantis.com/careers
-- https://www.miraxia.com/jobs
-- https://www.mirrord.dev/careers
-- https://www.mobiliar.ch/jobs
-- https://www.mogdb.io/en/careers
-- https://www.mongodb.com/careers
-- https://www.moonbitlang.com/careers
-- https://www.morganstanley.com/careers
-- https://www.morningconsult.com/careers
-- https://www.morpheusdata.com/careers
-- https://www.msystechnologies.com/careers
-- https://www.myfitnesspal.com/careers
-- https://www.nagios.com/careers
-- https://www.namutech.co.kr/cocktail-cloud/?lang=en/careers
-- https://www.navimentum.com/careers
-- https://www.navimentum.com/nv/product/detail/1635215864250257410/careers
-- https://www.netapp.com/careers
-- https://www.nethopper.io/careers
-- https://www.netmatch.nl/career
-- https://www.netris.io/jobs
-- https://www.nginx.com/careers
-- https://www.nhncloud.com/kr/careers
-- https://www.nhncloud.com/kr/service/container/nhn-kubernetes-service-nks/careers
-- https://www.nirmata.com/careers
-- https://www.northflank.com/careers
-- https://www.novonordisk.com/careers
-- https://www.nttdata.com/global/en/careers
-- https://www.nunet.io/jobs
-- https://www.nuodb.com/careers
-- https://www.nutanix.com/careers
-- https://www.nytco.com/careers
-- https://www.okestro.com/kcsp/kcsp_viola.html/careers
-- https://www.okestro.com/product/viola.php/careers
-- https://www.okta.com/careers
-- https://www.onepeloton.com/careers
-- https://www.openebs.io/careers
-- https://www.openstack.org/jobs
-- https://www.operant.ai/careers
-- https://www.opsmx.com/careers
-- https://www.orange.com/fr/jobs
-- https://www.orkes.io/careers
-- https://www.ory.sh/jobs
-- https://www.otterize.com/careers
-- https://www.overops.com/careers
-- https://www.ozone.one/careers
-- https://www.pachyderm.com/careers
-- https://www.paloaltonetworks.com/careers
-- https://www.payitgov.com/careers
-- https://www.pdtpartners.com/careers
-- https://www.permit.io/careers
-- https://www.pionative.com/cloud-native-services/careers
-- https://www.play-ce.io/en/cloud.html/careers
-- https://www.plural.sh/careers
-- https://www.plusserver.com/career
-- https://www.plusserver.com/en/product/managed-kubernetes/career
-- https://www.pomerium.com/careers
-- https://www.porsche.com/careers
-- https://www.posedio.com/career
-- https://www.postfinance.ch/en/private.html/careers
-- https://www.prodigygame.com/main-en/jobs
-- https://www.prodyna.com/careers
-- https://www.profisea.com/careers
-- https://www.ps.kz/careers
-- https://www.ps.kz/support/linux#/careers
-- https://www.pulumi.com/careers
-- https://www.purestorage.com/careers
-- https://www.qaware.de/career
-- https://www.quali.com/careers
-- https://www.qumulo.com/careers
-- https://www.rails.cn/xian/zh-cn/train/?sign=train/careers
-- https://www.rbc.com/careers
-- https://www.reddit.com/careers
-- https://www.redhat.com/en/jobs
-- https://www.redpill-linpro.com/career
-- https://www.rely.io/careers
-- https://www.replex.io/careers
-- https://www.replicated.com/careers
-- https://www.resolve.ai/careers
-- https://www.ricardo.ch/jobs
-- https://www.roadie.io/careers
-- https://www.robinhood.com/us/en/careers
-- https://www.rookout.com/careers
-- https://www.rtx.com/careers
-- https://www.samsungsds.com/us/index.html/careers
-- https://www.scalefactory.com/careers
-- https://www.scaleops.com/careers
-- https://www.scaleway.com/en/careers
-- https://www.scality.com/products/ring/careers
-- https://www.scylladb.com/careers
-- https://www.seal.io/career
-- https://www.secondfront.com/careers
-- https://www.sedai.io/careers
-- https://www.seldon.io/careers
-- https://www.servicememe.com/career
-- https://www.servicememe.com/services/career
-- https://www.servicememe.com/services/training/career
-- https://www.shopify.com/careers
-- https://www.sideroLabs.com/careers
-- https://www.sifamo.com/careers
-- https://www.sigstore.dev/careers
-- https://www.simplyblock.io/careers
-- https://www.singlestore.com/careers
-- https://www.skylinenet.net/careers
-- https://www.slim.ai/careers
-- https://www.snowflake.com/careers
-- https://www.southworks.com/careers
-- https://www.spacelift.io/careers
-- https://www.spectrocloud.com/careers
-- https://www.speedscale.com/careers
-- https://www.splunk.com/careers
-- https://www.squarespace.com/jobs
-- https://www.stack.io/careers
-- https://www.stackgenie.io/jobs
-- https://www.stackgenie.io/kubernetes/jobs
-- https://www.stackit.de/de/career
-- https://www.stackstate.com/careers
-- https://www.steamhaus.co.uk/careers
-- https://www.stormforge.io/careers
-- https://www.strava.com/careers
-- https://www.styra.com/careers
-- https://www.sumologic.com/careers
-- https://www.suse.com/careers
-- https://www.svix.com/careers
-- https://www.swisspost.com/career
-- https://www.switch.ch/jobs
-- https://www.symbotic.com/careers
-- https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html/careers
-- https://www.syntasso.io/careers
-- https://www.syseleven.de/career
-- https://www.t-systems.com/careers
-- https://www.t-systems.com/de/en/cloud-services/cloud-application-services/managed-container-stack/careers
-- https://www.talend.com/resources/what-streaming-data/careers
-- https://www.tarantool.io/en/careers
-- https://www.tatacommunications.com/careers
-- https://www.telemetryhub.com/careers
-- https://www.temporal.io/careers
-- https://www.tenable.com/careers
-- https://www.terasky.com/careers
-- https://www.tetrate.io/careers
-- https://www.tetrate.io/tetrate-service-bridge/careers
-- https://www.thalesgroup.com/en/career
-- https://www.thermofisher.com/us/en/home.html/careers
-- https://www.threatstack.com/careers
-- https://www.timescale.com/careers
-- https://www.tmax.co.kr/hypercloud/careers
-- https://www.tno.nl/en/careers
-- https://www.toast.com/careers
-- https://www.tongtech.com/careers
-- https://www.toppanmerrill.com/careers
-- https://www.travelping.com/jobs
-- https://www.trendmicro.com/en_us/business.html/careers
-- https://www.trendmicro.com/en_us/business/campaigns/cloud-one-services.html/careers
-- https://www.trilio.io/careers
-- https://www.ukg.com/careers
-- https://www.umb.ch/jobs
-- https://www.union.ai/careers
-- https://www.unryo.com/careers
-- https://www.uturndata.com/careers
-- https://www.valvesoftware.com/en/careers
-- https://www.vertica.com/careers
-- https://www.vnet.com/en/job
-- https://www.volcengine.com/careers
-- https://www.volcengine.com/product/vke/careers
-- https://www.voltactivedata.com/careers
-- https://www.vultr.com/jobs
-- https://www.wavecon.de/de/jobs
-- https://www.whatap.io/en/careers
-- https://www.whitestack.com/jobs
-- https://www.whizus.com/careers
-- https://www.wiit.cloud/career
-- https://www.wiit.cloud/en/platform/cloud-technology/kubernetes/#jump-k8s/careers
-- https://www.wiz.io/careers
-- https://www.xsky.com/careers
-- https://www.yahoo.com/careers
-- https://www.yellowbrick.com/careers
-- https://www.zabbix.com/careers
-- https://www.zenduty.com/careers
-- https://www.zte.com.cn/global/careers
-- https://www2.deloitte.com/cn/zh.html/careers
-- https://xcloud.lenovo.com.cn/zh-cn/pages/paas.html#/careers
-- https://xgeeks.io/careers
-- https://ydb.tech/careers
-- https://yun.pingan.com/careers
-- https://zededa.com/careers
-- https://zesty.co/careers
-- https://zitadel.com/jobs
-- https://zuplo.com/careers
+Found Career pages
+| project | career page |
+| --- | --- |
+|  aokumo.io  |  https://www.aokumo.io/careers  |
+|  deepfactor.io  |  https://www.deepfactor.io/careers  |
+|  neo4j.com  |  https://neo4j.com/careers  |
+|  rtx.com  |  https://www.rtx.com/careers  |
+|  guance.com  |  https://guance.com/careers  |
+|  cisco.com  |  https://www.cisco.com/careers  |
+|  tmax.co.kr  |  https://www.tmax.co.kr/hypercloud/careers  |
+|  snyk.io  |  https://snyk.io/careers  |
+|  morganstanley.com  |  https://www.morganstanley.com/careers  |
+|  kubeops.net  |  https://kubeops.net/en/careers  |
+|  arangodb.com  |  https://www.arangodb.com/careers  |
+|  dbos.dev  |  https://www.dbos.dev/jobs  |
+|  deeperthanblue.co.uk  |  https://www.deeperthanblue.co.uk/careers  |
+|  appsignal.com  |  https://www.appsignal.com/jobs  |
+|  morpheusdata.com  |  https://www.morpheusdata.com/careers  |
+|  myfitnesspal.com  |  https://www.myfitnesspal.com/careers  |
+|  atix.de  |  https://atix.de/career  |
+|  cablelabs.com  |  https://www.cablelabs.com/careers  |
+|  polkadot.network  |  https://polkadot.network/careers  |
+|  nielseniq.com  |  https://nielseniq.com/global/en/careers  |
+|  spacelift.io  |  https://www.spacelift.io/careers  |
+|  ey.com  |  https://www.ey.com/en_gl/careers  |
+|  strava.com  |  https://www.strava.com/careers  |
+|  fullstacks.eu  |  https://www.fullstacks.eu/kubernetes-trainings/careers  |
+|  zuplo.com  |  https://zuplo.com/careers  |
+|  enterprises.upmc.com  |  https://enterprises.upmc.com/careers  |
+|  evonem.com  |  https://evonem.com/kubernetes/careers  |
+|  teutostack.de  |  https://teutostack.de/produkte/managed-kubernetes/careers  |
+|  honeybadger.io  |  https://www.honeybadger.io/careers  |
+|  cto.ai  |  https://www.cto.ai/careers  |
+|  stateful.com  |  https://stateful.com/careers  |
+|  prodyna.com  |  https://www.prodyna.com/careers  |
+|  mirrord.dev  |  https://www.mirrord.dev/careers  |
+|  octopus.com  |  https://octopus.com/careers  |
+|  clastix.io  |  https://www.clastix.io/careers  |
+|  servicememe.com  |  https://www.servicememe.com/services/career  |
+|  scylladb.com  |  https://www.scylladb.com/careers  |
+|  openebs.io  |  https://www.openebs.io/careers  |
+|  authkeys.io  |  https://authkeys.io/careers  |
+|  metrostar.com  |  https://www.metrostar.com/jobs  |
+|  splunk.com  |  https://www.splunk.com/careers  |
+|  bocloud.com.cn  |  https://www.bocloud.com.cn/train/?id=92/careers  |
+|  easystack.cn  |  https://www.easystack.cn/career  |
+|  ukg.com  |  https://www.ukg.com/careers  |
+|  openstack.org  |  https://www.openstack.org/jobs  |
+|  novonordisk.com  |  https://www.novonordisk.com/careers  |
+|  isovalent.com  |  https://isovalent.com/careers  |
+|  antgroup.com  |  https://www.antgroup.com/careers  |
+|  humanitec.com  |  https://www.humanitec.com/careers  |
+|  elastisys.com  |  https://elastisys.com/training/career  |
+|  docs.flagger.app  |  https://docs.flagger.app/careers  |
+|  tenable.com  |  https://www.tenable.com/careers  |
+|  pionative.com  |  https://www.pionative.com/cloud-native-services/careers  |
+|  symbotic.com  |  https://www.symbotic.com/careers  |
+|  kodekloud.com  |  https://kodekloud.com/careers  |
+|  komodor.com  |  https://www.komodor.com/careers  |
+|  xcloud.lenovo.com.cn  |  https://xcloud.lenovo.com.cn/zh-cn/pages/paas.html#/careers  |
+|  appstellar.io  |  https://www.appstellar.io/careers  |
+|  jiankongbao.com  |  https://www.jiankongbao.com/careers  |
+|  carrier.huawei.com  |  https://carrier.huawei.com/en/products/service-and-software/software-business/careers  |
+|  codefresh.io  |  https://codefresh.io/careers  |
+|  middleware.io  |  https://middleware.io/careers  |
+|  dart.dev  |  https://dart.dev/jobs  |
+|  kubiya.ai  |  https://www.kubiya.ai/careers  |
+|  namutech.co.kr  |  https://www.namutech.co.kr/cocktail-cloud/?lang=en/careers  |
+|  mia-platform.eu  |  https://mia-platform.eu/platform/console/careers  |
+|  platform.sh  |  https://platform.sh/careers  |
+|  sedai.io  |  https://www.sedai.io/careers  |
+|  taubyte.com  |  https://taubyte.com/careers  |
+|  amd.com  |  https://www.amd.com/careers  |
+|  unryo.com  |  https://www.unryo.com/careers  |
+|  arrikto.com  |  https://www.arrikto.com/careers  |
+|  tarantool.io  |  https://www.tarantool.io/en/careers  |
+|  gitpod.io  |  https://gitpod.io/careers  |
+|  docs.microsoft.com  |  https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-2408/careers  |
+|  mastercard.us  |  https://www.mastercard.us/en-us.html/careers  |
+|  miraxia.com  |  https://www.miraxia.com/jobs  |
+|  nebius.com  |  https://nebius.com/careers  |
+|  chinamobileltd.com  |  https://www.chinamobileltd.com/en/global/home.php/careers  |
+|  infosys.com  |  https://www.infosys.com/careers  |
+|  ricardo.ch  |  https://www.ricardo.ch/jobs  |
+|  robin.io  |  https://robin.io/careers  |
+|  teuto.net  |  https://teuto.net/teutostack-openstack-public-cloud/career  |
+|  blakyaks.com  |  https://www.blakyaks.com/careers  |
+|  conoa.se  |  https://www.conoa.se/utbildning/kubernetes-utbildning/job  |
+|  thalesgroup.com  |  https://www.thalesgroup.com/en/career  |
+|  scalingo.com  |  https://scalingo.com/jobs  |
+|  coredge.io  |  https://coredge.io/careers  |
+|  apica.io  |  https://www.apica.io/careers  |
+|  about.gitlab.com  |  https://about.gitlab.com/jobs  |
+|  calyptia.com  |  https://www.calyptia.com/careers  |
+|  cloudbolt.io  |  https://www.cloudbolt.io/careers  |
+|  gitness.com  |  https://gitness.com/careers  |
+|  iguazio.com  |  https://www.iguazio.com/careers  |
+|  rbc.com  |  https://www.rbc.com/careers  |
+|  plusserver.com  |  https://www.plusserver.com/career  |
+|  algorithmia.com  |  https://algorithmia.com/product/careers  |
+|  cloud-ace.jp  |  https://www.cloud-ace.jp/careers  |
+|  metakube.syseleven.de  |  https://metakube.syseleven.de/careers  |
+|  bd-apaas.com  |  https://www.bd-apaas.com/#/careers  |
+|  sysdig.com  |  https://sysdig.com/careers  |
+|  milvus.io  |  https://milvus.io/careers  |
+|  konghq.com  |  https://konghq.com/careers  |
+|  crunchydata.com  |  https://www.crunchydata.com/careers  |
+|  samsungsds.com  |  https://www.samsungsds.com/us/index.html/careers  |
+|  percona.com  |  http://www.percona.com/careers  |
+|  kpt.dev  |  https://kpt.dev/careers  |
+|  huaweicloud.com  |  https://www.huaweicloud.com/intl/en-us/careers  |
+|  bytesource.net  |  https://bytesource.net/en/kubernetes/careers  |
+|  threatstack.com  |  https://www.threatstack.com/careers  |
+|  effectual.com  |  https://effectual.com/kubernetes/careers  |
+|  redpanda.com  |  https://redpanda.com/careers  |
+|  suse.com  |  https://www.suse.com/careers  |
+|  microsoft.com  |  https://www.microsoft.com/en-us/sql-server/careers  |
+|  coder.com  |  https://coder.com/careers  |
+|  greptime.com  |  https://greptime.com/careers  |
+|  b-nova.com  |  https://b-nova.com/en/home/jobs  |
+|  seal.io  |  https://seal.io/career  |
+|  umb.ch  |  https://www.umb.ch/jobs  |
+|  encore.dev  |  https://encore.dev/jobs  |
+|  planetscale.com  |  https://planetscale.com/careers  |
+|  gitguardian.com  |  https://www.gitguardian.com/careers  |
+|  pachyderm.com  |  https://www.pachyderm.com/careers  |
+|  garden.io  |  https://garden.io/careers  |
+|  msystechnologies.com  |  https://www.msystechnologies.com/careers  |
+|  dfds.com  |  https://www.dfds.com/en/jobs  |
+|  console.qingcloud.com  |  https://console.qingcloud.com/paas/qke/clusters/careers  |
+|  valvesoftware.com  |  https://www.valvesoftware.com/en/careers  |
+|  rancher.com  |  https://rancher.com/careers  |
+|  ory.sh  |  https://www.ory.sh/jobs  |
+|  geekssolutions.in  |  https://geekssolutions.in/careers  |
+|  rely.io  |  https://www.rely.io/careers  |
+|  tongtech.com  |  https://tongtech.com/dft/kubernetes.html/careers  |
+|  vexxhost.com  |  https://vexxhost.com/careers  |
+|  datree.io  |  https://datree.io/careers  |
+|  otterize.com  |  https://www.otterize.com/careers  |
+|  orange.com  |  https://www.orange.com/fr/jobs  |
+|  accordions.co.kr  |  https://accordions.co.kr/kube_eng/careers  |
+|  supabase.com  |  https://supabase.com/careers  |
+|  sifamo.com  |  https://www.sifamo.com/careers  |
+|  fossa.com  |  https://fossa.com/careers  |
+|  authing.cn  |  https://www.authing.cn/careers  |
+|  datadoghq.com  |  https://www.datadoghq.com/careers  |
+|  circonus.com  |  https://www.circonus.com/careers  |
+|  ydb.tech  |  https://ydb.tech/careers  |
+|  global.jd.com  |  https://global.jd.com/careers  |
+|  yellowbrick.com  |  https://www.yellowbrick.com/careers  |
+|  kubeorbit.io  |  https://www.kubeorbit.io/careers  |
+|  humio.com  |  https://www.humio.com/careers  |
+|  stacklet.io  |  https://stacklet.io/careers  |
+|  kestra.io  |  https://kestra.io/careers  |
+|  plural.sh  |  https://www.plural.sh/careers  |
+|  auditboard.com  |  https://www.auditboard.com/careers  |
+|  artifacthub.io  |  https://artifacthub.io/careers  |
+|  porsche.com  |  https://www.porsche.com/careers  |
+|  nhncloud.com  |  https://www.nhncloud.com/kr/careers  |
+|  profisea.com  |  https://www.profisea.com/careers  |
+|  getport.io  |  https://www.getport.io/careers  |
+|  memphis.dev  |  https://memphis.dev/careers  |
+|  chronosphere.io  |  https://chronosphere.io/careers  |
+|  datenlord.io  |  http://www.datenlord.io/careers  |
+|  zte.com.cn  |  https://www.zte.com.cn/global/careers  |
+|  sematext.com  |  https://sematext.com/jobs  |
+|  toppanmerrill.com  |  https://www.toppanmerrill.com/careers  |
+|  loft.sh  |  https://loft.sh/careers  |
+|  jdcloud.com  |  https://www.jdcloud.com/en/products/jcs-for-kubernetes/careers  |
+|  qingteng.cn  |  https://qingteng.cn/careers  |
+|  mobiliar.ch  |  https://www.mobiliar.ch/jobs  |
+|  redhat.com  |  https://www.redhat.com/en/jobs  |
+|  nacos.io  |  https://nacos.io/en-us/careers  |
+|  andesdigital.com  |  https://www.andesdigital.com/en/services/managed-services/tanzu-management-and-maintenance/#/careers  |
+|  restate.dev  |  https://restate.dev/careers  |
+|  kurl.sh  |  https://kurl.sh/careers  |
+|  cloudhealth.vmware.com  |  https://cloudhealth.vmware.com/careers  |
+|  b1-systems.de  |  https://www.b1-systems.de/jobs  |
+|  temporal.io  |  https://www.temporal.io/careers  |
+|  infisical.com  |  https://infisical.com/careers  |
+|  ngrok.com  |  https://ngrok.com/careers  |
+|  jetstack.io  |  https://www.jetstack.io/careers  |
+|  quali.com  |  https://www.quali.com/careers  |
+|  spot.io  |  https://spot.io/career  |
+|  landscape.cncf.io  |  https://landscape.cncf.io/careers  |
+|  alibabacloud.com  |  https://www.alibabacloud.com/career  |
+|  signoz.io  |  https://signoz.io/careers  |
+|  boeing.com  |  https://www.boeing.com/jobs  |
+|  catchpoint.com  |  https://www.catchpoint.com/careers  |
+|  netmatch.nl  |  https://www.netmatch.nl/career  |
+|  openresty.com  |  https://openresty.com/en/career  |
+|  opennebula.io  |  https://opennebula.io/careers  |
+|  vshn.ch  |  https://vshn.ch/en/jobs  |
+|  toast.com  |  https://www.toast.com/careers  |
+|  epam.com  |  https://www.epam.com/careers  |
+|  factory.ai  |  https://www.factory.ai/careers  |
+|  arm.com  |  https://www.arm.com/zh-TW/careers  |
+|  nytco.com  |  https://www.nytco.com/careers  |
+|  merck.com  |  https://www.merck.com/careers  |
+|  vamp.io  |  https://vamp.io/careers  |
+|  sensu.io  |  https://sensu.io/careers  |
+|  proximaops.io  |  https://proximaops.io/careers  |
+|  thermofisher.com  |  https://www.thermofisher.com/us/en/home.html/careers  |
+|  lseg.com  |  https://www.lseg.com/en/careers  |
+|  eclipse.org  |  https://www.eclipse.org/careers  |
+|  wiit.cloud  |  https://www.wiit.cloud/career  |
+|  trilio.io  |  https://www.trilio.io/careers  |
+|  sigstore.dev  |  https://www.sigstore.dev/careers  |
+|  heroku.com  |  https://www.heroku.com/careers  |
+|  jet-start.sh  |  https://jet-start.sh/careers  |
+|  audi.de  |  https://www.audi.de/de/brand/de.html/careers  |
+|  vnet.com  |  https://www.vnet.com/en/job  |
+|  goraft.tech  |  https://goraft.tech/careers  |
+|  megazone.com  |  https://www.megazone.com/career  |
+|  scalefactory.com  |  https://www.scalefactory.com/careers  |
+|  quay.io  |  https://quay.io/jobs  |
+|  eitco.de  |  https://www.eitco.de/jobs  |
+|  cloud.google.com  |  https://cloud.google.com/careers  |
+|  purestorage.com  |  https://www.purestorage.com/careers  |
+|  gradle.org  |  https://gradle.org/jobs  |
+|  morningconsult.com  |  https://www.morningconsult.com/careers  |
+|  kentik.com  |  https://www.kentik.com/careers  |
+|  kiowy.com  |  https://www.kiowy.com/careers  |
+|  infinidat.com  |  https://www.infinidat.com/en/careers  |
+|  treyee.io  |  https://treyee.io/careers  |
+|  goldmansachs.com  |  https://www.goldmansachs.com/careers  |
+|  linkedin.com  |  https://www.linkedin.com/career  |
+|  devsoperative.com  |  https://www.devsoperative.com/index.html/careers  |
+|  adobe.com  |  https://www.adobe.com/careers  |
+|  cloud.samsungsds.com  |  https://cloud.samsungsds.com/serviceportal/product/container/k8sEngine.html/careers  |
+|  tengine.taobao.org  |  https://tengine.taobao.org/careers  |
+|  deepflow.yunshan.net  |  https://deepflow.yunshan.net/community.html/careers  |
+|  zabbix.com  |  https://www.zabbix.com/careers  |
+|  jfrog.com  |  https://jfrog.com/careers  |
+|  dfinity.org  |  https://dfinity.org/careers  |
+|  cargurus.com  |  https://www.cargurus.com/careers  |
+|  instruqt.com  |  https://www.instruqt.com/careers  |
+|  matrixx.com  |  https://www.matrixx.com/careers  |
+|  terasky.com  |  https://www.terasky.com/careers  |
+|  keyfactor.com  |  https://www.keyfactor.com/careers  |
+|  mathworks.com  |  https://www.mathworks.com/careers  |
+|  vercel.com  |  https://vercel.com/careers  |
+|  k6.io  |  https://k6.io/jobs  |
+|  synopsys.com  |  https://www.synopsys.com/software-integrity/security-testing/software-composition-analysis.html/careers  |
+|  authzed.com  |  https://authzed.com/careers  |
+|  cloudify.co  |  https://cloudify.co/careers  |
+|  apiiro.com  |  https://www.apiiro.com/careers  |
+|  en.pingcap.com  |  https://en.pingcap.com/careers  |
+|  aquasec.com  |  https://www.aquasec.com/careers  |
+|  concourse-ci.org  |  https://concourse-ci.org/jobs  |
+|  yun.pingan.com  |  https://yun.pingan.com/careers  |
+|  sideroLabs.com  |  https://www.sideroLabs.com/careers  |
+|  casper.network  |  https://casper.network/career  |
+|  mavenir.com  |  https://mavenir.com/careers  |
+|  leaseweb.com  |  https://www.leaseweb.com/careers  |
+|  clever-cloud.com  |  https://www.clever-cloud.com/careers  |
+|  aiven.io  |  https://aiven.io/careers  |
+|  openllmetry.com  |  https://openllmetry.com/careers  |
+|  mergify.com  |  https://mergify.com/careers  |
+|  autocode.com  |  https://autocode.com/careers  |
+|  ionir.com  |  https://ionir.com/careers  |
+|  vultr.com  |  https://www.vultr.com/jobs  |
+|  everquote.com  |  https://www.everquote.com/careers  |
+|  split.io  |  https://split.io/careers  |
+|  vertica.com  |  https://www.vertica.com/careers  |
+|  cast.ai  |  https://www.cast.ai/jobs  |
+|  cloudmt.co.kr  |  https://www.cloudmt.co.kr/CNCF/careers  |
+|  influxdata.com  |  https://www.influxdata.com/careers  |
+|  jit.io  |  https://www.jit.io/career  |
+|  nirmata.com  |  https://www.nirmata.com/careers  |
+|  equityzen.com  |  https://equityzen.com/careers  |
+|  pomerium.com  |  https://www.pomerium.com/careers  |
+|  lightrun.com  |  https://www.lightrun.com/careers  |
+|  launchdarkly.com  |  https://launchdarkly.com/careers  |
+|  cloud66.com  |  https://www.cloud66.com/jobs  |
+|  flox.dev  |  https://flox.dev/careers  |
+|  anova.com  |  https://www.anova.com/careers  |
+|  lumigo.io  |  https://www.lumigo.io/careers  |
+|  neuvector.com  |  https://neuvector.com/careers  |
+|  netris.io  |  https://www.netris.io/jobs  |
+|  us.alibabacloud.com  |  https://us.alibabacloud.com/careers  |
+|  slim.ai  |  https://www.slim.ai/careers  |
+|  densify.com  |  https://www.densify.com/careers  |
+|  clickhouse.com  |  https://clickhouse.com/careers  |
+|  chelsio.com  |  https://www.chelsio.com/careers  |
+|  last9.io  |  https://www.last9.io/careers  |
+|  dragonflydb.io  |  https://dragonflydb.io/careers  |
+|  jpmorganchase.com  |  https://www.jpmorganchase.com/careers  |
+|  instana.com  |  https://www.instana.com/careers  |
+|  cloudoor.com  |  https://cloudoor.com/careers  |
+|  speedscale.com  |  https://www.speedscale.com/careers  |
+|  cyberark.com  |  https://www.cyberark.com/careers  |
+|  networkbuilders.intel.com  |  https://networkbuilders.intel.com/intel-technologies/container-experience-kits/careers  |
+|  stacklok.com  |  https://stacklok.com/careers  |
+|  aternity.com  |  https://www.aternity.com/application-performance-monitoring/careers  |
+|  linuxcontainers.org  |  https://linuxcontainers.org/lxd/careers  |
+|  itopia.com  |  https://itopia.com/itopia-spaces/careers  |
+|  permit.io  |  https://www.permit.io/careers  |
+|  macstadium.com  |  https://www.macstadium.com/careers  |
+|  grapeup.com  |  https://grapeup.com/careers  |
+|  daytona.io  |  https://www.daytona.io/careers  |
+|  whatap.io  |  https://whatap.io/en/careers  |
+|  orkes.io  |  https://www.orkes.io/careers  |
+|  nttdata.com  |  https://www.nttdata.com/global/en/careers  |
+|  simplyblock.io  |  https://www.simplyblock.io/careers  |
+|  likemindsconsulting.com  |  https://likemindsconsulting.com/careers  |
+|  cloudgeometry.io  |  https://www.cloudgeometry.io/careers  |
+|  eviden.com  |  https://eviden.com/careers  |
+|  6wind.com  |  https://www.6wind.com/careers  |
+|  edgeless.systems  |  https://www.edgeless.systems/careers  |
+|  lacework.com  |  https://www.lacework.com/careers  |
+|  scality.com  |  https://www.scality.com/products/ring/careers  |
+|  rng.tech  |  https://rng.tech/en/kubernetes/careers  |
+|  automq.com  |  https://www.automq.com/careers  |
+|  roadie.io  |  https://www.roadie.io/careers  |
+|  ksat.no  |  https://www.ksat.no/careers  |
+|  kubeslice.io  |  https://kubeslice.io/careers  |
+|  stormforge.io  |  https://www.stormforge.io/careers  |
+|  rafay.co  |  https://rafay.co/careers  |
+|  cockroachlabs.com  |  https://www.cockroachlabs.com/careers  |
+|  afi.ai  |  https://afi.ai/kubernetes-backup/careers  |
+|  conjur.org  |  https://www.conjur.org/careers  |
+|  apollographql.com  |  https://www.apollographql.com/careers  |
+|  cloudferro.com  |  https://cloudferro.com/career  |
+|  amazee.io  |  https://www.amazee.io/careers  |
+|  gcore.com  |  https://gcore.com/careers  |
+|  syntasso.io  |  https://www.syntasso.io/careers  |
+|  mastercontrol.com  |  https://www.mastercontrol.com/careers  |
+|  gofr.dev  |  https://gofr.dev/careers  |
+|  openpolardb.com  |  https://openpolardb.com/home/careers  |
+|  wavecon.de  |  https://www.wavecon.de/de/jobs  |
+|  corporate.888.com  |  https://corporate.888.com/careers  |
+|  min.io  |  https://min.io/careers  |
+|  scaleway.com  |  https://www.scaleway.com/en/careers  |
+|  fr0ntierx.com  |  https://www.fr0ntierx.com/careers  |
+|  canonical.com  |  https://canonical.com/careers  |
+|  lockheedmartin.com  |  https://www.lockheedmartin.com/careers  |
+|  stackit.de  |  https://www.stackit.de/de/career  |
+|  cinqict.nl  |  https://www.cinqict.nl/careers  |
+|  hps-worldwide.com  |  https://www.hps-worldwide.com/careers  |
+|  cloudops.com  |  https://www.cloudops.com/careers  |
+|  armosec.io  |  https://www.armosec.io/careers  |
+|  flows.network  |  https://flows.network/careers  |
+|  permify.co  |  https://permify.co/careers  |
+|  traefik.io  |  https://traefik.io/careers  |
+|  about.scarf.sh  |  https://about.scarf.sh/careers  |
+|  getunleash.io  |  https://www.getunleash.io/careers  |
+|  dot.net  |  https://dot.net/careers  |
+|  fidelity.com  |  https://www.fidelity.com/jobs  |
+|  opslevel.com  |  http://www.opslevel.com/careers  |
+|  veritasautomata.com  |  https://veritasautomata.com/careers  |
+|  voltactivedata.com  |  https://www.voltactivedata.com/careers  |
+|  swisspost.com  |  https://www.swisspost.com/job  |
+|  elastic.co  |  https://www.elastic.co/careers  |
+|  buildkite.com  |  https://buildkite.com/careers  |
+|  kubecost.com  |  https://kubecost.com/careers  |
+|  carbondata.apache.org  |  https://carbondata.apache.org/careers  |
+|  whitestack.com  |  https://www.whitestack.com/jobs  |
+|  posit.co  |  https://posit.co/careers  |
+|  nginx.com  |  https://www.nginx.com/careers  |
+|  monzo.com  |  https://monzo.com/us/careers  |
+|  novaglobal.com.sg  |  https://novaglobal.com.sg/index.php/kubernetes/careers  |
+|  defenseunicorns.com  |  https://www.defenseunicorns.com/careers  |
+|  fossid.com  |  https://www.fossid.com/careers  |
+|  cosmonic.com  |  https://cosmonic.com/careers  |
+|  shopify.com  |  https://www.shopify.com/careers  |
+|  platform9.com  |  https://platform9.com/careers  |
+|  juniper.net  |  https://www.juniper.net/us/en/products/security/srx-series/csrx-containerized-firewall.html/careers  |
+|  velocity.tech  |  https://velocity.tech/careers  |
+|  ltimindtree.com  |  https://www.ltimindtree.com/careers  |
+|  endress.com  |  https://www.endress.com/career  |
+|  centricaenergy.com  |  https://www.centricaenergy.com/careers  |
+|  ozone.one  |  https://www.ozone.one/careers  |
+|  navimentum.com  |  https://www.navimentum.com/careers  |
+|  stackstate.com  |  https://www.stackstate.com/careers  |
+|  cubefs.io  |  https://cubefs.io/careers  |
+|  mezmo.com  |  https://www.mezmo.com/career  |
+|  bytebase.com  |  https://www.bytebase.com/jobs  |
+|  newrelic.com  |  https://newrelic.com/careers  |
+|  zesty.co  |  https://zesty.co/careers  |
+|  paloaltonetworks.com  |  https://www.paloaltonetworks.com/careers  |
+|  stackgenie.io  |  https://www.stackgenie.io/kubernetes/jobs  |
+|  daekyocns.co.kr  |  https://daekyocns.co.kr/business/consulting_en.aspx/careers  |
+|  fiserv.com  |  https://www.fiserv.com/careers  |
+|  secondfront.com  |  https://www.secondfront.com/careers  |
+|  ibm.com  |  https://www.ibm.com/storage/containers/careers  |
+|  cloudpilot.ai  |  https://www.cloudpilot.ai/careers  |
+|  docomoinnovations.com  |  https://www.docomoinnovations.com/careers  |
+|  kubeshop.io  |  https://kubeshop.io/careers  |
+|  replicated.com  |  https://www.replicated.com/careers  |
+|  merly.ai  |  https://www.merly.ai/careers  |
+|  dynatrace.com  |  https://www.dynatrace.com/careers  |
+|  kublr.com  |  https://kublr.com/careers  |
+|  elastx.se  |  https://elastx.se/en/kubernetes/careers  |
+|  americanexpress.com  |  https://www.americanexpress.com/careers  |
+|  chinasystems.com  |  https://www.chinasystems.com/careers  |
+|  asml.com  |  https://www.asml.com/careers  |
+|  qaware.de  |  https://www.qaware.de/career  |
+|  t-systems.com  |  https://www.t-systems.com/careers  |
+|  intuit.com  |  https://www.intuit.com/careers  |
+|  getcruise.com  |  https://getcruise.com/careers  |
+|  gientech.com  |  https://www.gientech.com/career  |
+|  mariadb.com  |  https://mariadb.com/careers  |
+|  www2.deloitte.com  |  https://www2.deloitte.com/cn/zh.html/careers  |
+|  scaleops.com  |  https://www.scaleops.com/careers  |
+|  seldon.io  |  https://www.seldon.io/careers  |
+|  tetrate.io  |  https://www.tetrate.io/tetrate-service-bridge/careers  |
+|  tatacommunications.com  |  https://www.tatacommunications.com/careers  |
+|  No github https:  |  No github https://github.com/hyscale/hyscale#readme/  |
+|  infoway-inforoute.ca  |  https://www.infoway-inforoute.ca/en/careers  |
+|  graphscope.io  |  https://graphscope.io/careers  |
+|  clockwork.io  |  https://www.clockwork.io/careers  |
+|  rio.io  |  https://rio.io/careers  |
+|  diagrid.io  |  https://www.diagrid.io/careers  |
+|  circleci.com  |  https://circleci.com/careers  |
+|  cloud.tencent.com  |  https://cloud.tencent.com/product/cls/careers  |
+|  f5.com  |  https://f5.com/careers  |
+|  apple.com  |  https://www.apple.com/careers  |
+|  snowflake.com  |  https://www.snowflake.com/careers  |
+|  zededa.com  |  https://zededa.com/careers  |
+|  cloudbees.com  |  https://www.cloudbees.com/careers  |
+|  chainloop.dev  |  https://chainloop.dev/careers  |
+|  mongodb.com  |  https://www.mongodb.com/careers  |
+|  appneta.com  |  https://www.appneta.com/careers  |
+|  exoscale.com  |  https://www.exoscale.com/jobs  |
+|  switch.ch  |  https://www.switch.ch/jobs  |
+|  tanzu.vmware.com  |  https://tanzu.vmware.com/kubernetes-grid/careers  |
+|  replex.io  |  https://www.replex.io/careers  |
+|  linbit.com  |  https://www.linbit.com/linstor/careers  |
+|  pipekit.io  |  http://www.pipekit.io/careers  |
+|  cathayholdings.com  |  https://www.cathayholdings.com/careers  |
+|  meltwater.com  |  https://www.meltwater.com/en/careers  |
+|  grafana.com  |  https://grafana.com/careers  |
+|  omnistrate.com  |  https://omnistrate.com/careers  |
+|  redis.io  |  https://redis.io/careers  |
+|  kodemsecurity.com  |  https://www.kodemsecurity.com/careers  |
+|  digital.decathlon.net  |  https://digital.decathlon.net/jobs  |
+|  goteleport.com  |  https://goteleport.com/careers  |
+|  emqx.com  |  https://www.emqx.com/en/careers  |
+|  appdynamics.com  |  https://www.appdynamics.com/careers  |
+|  graylog.org  |  https://www.graylog.org/careers  |
+|  aws.amazon.com  |  https://aws.amazon.com/ebs/jobs  |
+|  portworx.com  |  https://portworx.com/careers  |
+|  upbound.io  |  https://upbound.io/careers  |
+|  squer.at  |  http://www.squer.at/career  |
+|  riscv.org  |  https://riscv.org/careers  |
+|  goauthentik.io  |  https://goauthentik.io/jobs  |
+|  controlmonkey.io  |  https://www.controlmonkey.io/careers  |
+|  payitgov.com  |  https://www.payitgov.com/careers  |
+|  prodigygame.com  |  https://www.prodigygame.com/main-en/jobs  |
+|  alasca.cloud  |  https://alasca.cloud/jobs  |
+|  alphabsolutions.com  |  https://alphabsolutions.com/careers  |
+|  bizmicro.co.kr  |  http://www.bizmicro.co.kr/careers  |
+|  datastax.com  |  https://www.datastax.com/careers  |
+|  reddit.com  |  https://www.reddit.com/careers  |
+|  gresearch.co.uk  |  https://www.gresearch.co.uk/careers  |
+|  telemetryhub.com  |  https://www.telemetryhub.com/careers  |
+|  wasmlabs.dev  |  https://wasmlabs.dev/projects/wasm-language-runtimes/careers  |
+|  koyeb.com  |  https://www.koyeb.com/careers  |
+|  volcengine.com  |  https://www.volcengine.com/product/vke/careers  |
+|  8gears.com  |  https://8gears.com/careers  |
+|  deepflow.io  |  https://deepflow.io/careers  |
+|  openobserve.ai  |  http://openobserve.ai/careers  |
+|  nunet.io  |  https://www.nunet.io/jobs  |
+|  docs.akri.sh  |  https://docs.akri.sh/careers  |
+|  kusari.dev  |  https://www.kusari.dev/careers  |
+|  bloomberg.com  |  https://www.bloomberg.com/tosv2.html/careers  |
+|  anynines.com  |  https://www.anynines.com/careers  |
+|  group.mercedes-benz.com  |  https://group.mercedes-benz.com/careers  |
+|  ansible.com  |  https://www.ansible.com/careers  |
+|  itongxue.net  |  https://www.itongxue.net/itxcertification?type=cka/careers  |
+|  tks.sktenterprise.com  |  https://tks.sktenterprise.com/en/careers  |
+|  posedio.com  |  https://www.posedio.com/career  |
+|  nagios.com  |  https://www.nagios.com/careers  |
+|  trendmicro.com  |  https://www.trendmicro.com/en_us/business/campaigns/cloud-one-services.html/careers  |
+|  granulate.io  |  https://www.granulate.io/careers  |
+|  aoe.com  |  https://www.aoe.com/career  |
+|  wiz.io  |  https://www.wiz.io/careers  |
+|  opsmx.com  |  https://www.opsmx.com/careers  |
+|  bluesentry.cloud  |  https://bluesentry.cloud/careers  |
+|  streamsets.com  |  https://streamsets.com/careers  |
+|  overops.com  |  https://www.overops.com/careers  |
+|  qumulo.com  |  https://www.qumulo.com/careers  |
+|  nuodb.com  |  https://www.nuodb.com/careers  |
+|  altinity.com  |  https://altinity.com/careers  |
+|  aspecto.io  |  https://www.aspecto.io/careers  |
+|  civo.com  |  https://www.civo.com/careers  |
+|  cloudsmith.com  |  https://www.cloudsmith.com/careers  |
+|  chef.io  |  https://www.chef.io/careers  |
+|  bosh.io  |  https://bosh.io/docs/jobs  |
+|  flagsmith.com  |  https://www.flagsmith.com/jobs  |
+|  redpill-linpro.com  |  https://www.redpill-linpro.com/career  |
+|  buoyant.io  |  https://buoyant.io/careers  |
+|  itq.eu  |  https://itq.eu/technology/kubernetes/jobs  |
+|  sumologic.com  |  https://www.sumologic.com/careers  |
+|  mckinsey.com  |  https://www.mckinsey.com/careers  |
+|  tno.nl  |  https://www.tno.nl/en/careers  |
+|  console.cloud.intel.com  |  https://console.cloud.intel.com/careers  |
+|  docs.prefect.io  |  https://docs.prefect.io/careers  |
+|  alluxio.io  |  https://www.alluxio.io/careers  |
+|  amadeus.com  |  https://amadeus.com/en/careers  |
+|  i3-systems.com  |  https://www.i3-systems.com/careers  |
+|  onepeloton.com  |  https://www.onepeloton.com/careers  |
+|  syseleven.de  |  https://www.syseleven.de/career  |
+|  hashicorp.com  |  https://www.hashicorp.com/careers  |
+|  aerospike.com  |  https://www.aerospike.com/careers  |
+|  liquibase.com  |  https://www.liquibase.com/job  |
+|  airbnb.com  |  https://www.airbnb.com/careers  |
+|  xsky.com  |  https://www.xsky.com/careers  |
+|  cloudzero.com  |  https://www.cloudzero.com/careers  |
+|  cloudbase.it  |  https://cloudbase.it/careers  |
+|  aserto.com  |  https://www.aserto.com/careers  |
+|  bancolombia.com  |  https://www.bancolombia.com/personas/careers  |
+|  devtron.ai  |  https://www.devtron.ai/careers  |
+|  talend.com  |  https://www.talend.com/resources/what-streaming-data/careers  |
+|  travelping.com  |  https://www.travelping.com/jobs  |
+|  ktnexr.com  |  https://www.ktnexr.com/career  |
+|  enterprisedb.com  |  https://www.enterprisedb.com/careers  |
+|  mantech.co.kr  |  https://www.mantech.co.kr/careers  |
+|  exein.io  |  https://www.exein.io/careers  |
+|  wandb.ai  |  https://wandb.ai/careers  |
+|  yahoo.com  |  https://www.yahoo.com/careers  |
+|  robinhood.com  |  https://www.robinhood.com/us/en/careers  |
+|  opsani.com  |  https://opsani.com/careers  |
+|  infoblox.com  |  https://www.infoblox.com/careers  |
+|  hitrust.com  |  https://www.hitrust.com/careers  |
+|  cortex.io  |  https://www.cortex.io/careers  |
+|  initializ.io  |  https://www.initializ.io/careers  |
+|  cloudification.io  |  https://www.cloudification.io/careers  |
+|  moonbitlang.com  |  https://www.moonbitlang.com/careers  |
+|  xgeeks.io  |  https://xgeeks.io/careers  |
+|  pulumi.com  |  https://www.pulumi.com/careers  |
+|  gradle.com  |  https://gradle.com/careers  |
+|  firehydrant.com  |  https://firehydrant.com/careers  |
+|  mogdb.io  |  https://www.mogdb.io/en/careers  |
+|  cambiahealth.com  |  https://www.cambiahealth.com/careers  |
+|  blackrock.com  |  https://www.blackrock.com/careers  |
+|  singlestore.com  |  https://www.singlestore.com/careers  |
+|  hasura.io  |  https://hasura.io/event-triggers/careers  |
+|  zitadel.com  |  https://zitadel.com/jobs  |
+|  okta.com  |  https://www.okta.com/careers  |
+|  nethopper.io  |  https://www.nethopper.io/careers  |
+|  concur.com  |  https://www.concur.com/careers  |
+|  ecloudtech.com  |  https://www.ecloudtech.com/job  |
+|  ripple.com  |  https://ripple.com/careers  |
+|  aviatrix.com  |  https://www.aviatrix.com/careers  |
+|  logz.io  |  https://logz.io/careers  |
+|  lablup.com  |  https://www.lablup.com/careers  |
+|  uturndata.com  |  https://www.uturndata.com/careers  |
+|  postfinance.ch  |  https://www.postfinance.ch/en/private.html/careers  |
+|  hk.iherb.com  |  https://hk.iherb.com/careers  |
+|  steamhaus.co.uk  |  https://www.steamhaus.co.uk/careers  |
+|  squarespace.com  |  https://www.squarespace.com/careers  |
+|  ionos.de  |  https://www.ionos.de/jobs  |
+|  king.com  |  https://king.com/jobs  |
+|  chainguard.dev  |  https://www.chainguard.dev/careers  |
+|  itgix.com  |  https://itgix.com/careers  |
+|  honeycomb.io  |  https://www.honeycomb.io/careers  |
+|  mirantis.com  |  https://www.mirantis.com/careers  |
+|  huifu.com  |  https://www.huifu.com/careers  |
+|  rails.cn  |  https://www.rails.cn/xian/zh-cn/train/?sign=train/careers  |
+|  okestro.com  |  https://www.okestro.com/product/viola.php/careers  |
+|  pdtpartners.com  |  https://www.pdtpartners.com/careers  |
+|  gremlin.com  |  https://www.gremlin.com/careers  |
+|  celonis.com  |  https://www.celonis.com/careers  |
+|  cariad.us  |  https://www.cariad.us/careers  |
+|  harness.io  |  https://harness.io/careers  |
+|  cuegee.com  |  https://www.cuegee.com/jobs  |
+|  superorbital.io  |  https://superorbital.io/careers  |
+|  union.ai  |  https://www.union.ai/careers  |
+|  greymatter.io  |  https://greymatter.io/careers  |
+|  logicmonitor.com  |  https://www.logicmonitor.com/careers  |
+|  ps.kz  |  https://www.ps.kz/careers  |
+|  chaosmeta.gitbook.io  |  https://chaosmeta.gitbook.io/chaosmeta-en/careers  |
+|  capsule8.com  |  https://capsule8.com/careers  |
+|  ambient.run  |  https://www.ambient.run/careers  |
+|  cloudreach.com  |  https://www.cloudreach.com/en/solutions/cloud-applications/kubernetes/careers  |
+|  cordial.com  |  https://cordial.com/careers  |
+|  stack.io  |  https://www.stack.io/careers  |
+|  rookout.com  |  https://www.rookout.com/careers  |
+|  entegral.com  |  https://entegral.com/careers  |
+|  chinaunicom.com.cn  |  http://www.chinaunicom.com.cn/career  |
+|  timescale.com  |  https://www.timescale.com/careers  |
+|  netapp.com  |  https://www.netapp.com/careers  |
+|  skylinenet.net  |  https://www.skylinenet.net/careers  |
+|  ebay.com  |  https://www.ebay.com/careers  |
+|  svix.com  |  https://www.svix.com/careers  |
+|  home.robusta.dev  |  https://home.robusta.dev/careers  |
+|  jysk.com  |  https://www.jysk.com/careers  |
+|  styra.com  |  https://www.styra.com/careers  |
+|  airlock.com  |  https://www.airlock.com/jobs  |
+|  mogenius.com  |  https://mogenius.com/career  |
+|  spectrocloud.com  |  https://spectrocloud.com/careers  |
+|  ardc.edu.au  |  https://www.ardc.edu.au/careers  |
+|  bloombase.com  |  https://www.bloombase.com/careers  |
+|  whizus.com  |  https://www.whizus.com/careers  |
+|  play-ce.io  |  https://www.play-ce.io/en/cloud.html/careers  |
+|  digitalocean.com  |  https://www.digitalocean.com/careers  |
+|  southworks.com  |  https://www.southworks.com/careers  |
+|  intl.cloud.tencent.com  |  https://intl.cloud.tencent.com/products/tke/careers  |
+|  cloud-kinetics.com  |  https://www.cloud-kinetics.com/careers  |
+|  northflank.com  |  https://www.northflank.com/careers  |
+|  mavensolutions.tech  |  https://www.mavensolutions.tech/career  |
+|  control-plane.io  |  https://control-plane.io/jobs  |
+|  accuknox.com  |  https://accuknox.com/careers  |
+|  d2iq.com  |  https://d2iq.com/careers  |
+|  zenduty.com  |  https://www.zenduty.com/careers  |
+|  boozallen.com  |  https://www.boozallen.com/careers  |
+|  ggu.edu  |  https://www.ggu.edu/career  |
+|  fastly.com  |  https://www.fastly.com/careers  |
+|  nutanix.com  |  https://www.nutanix.com/careers  |
+|  resolve.ai  |  https://www.resolve.ai/careers  |
